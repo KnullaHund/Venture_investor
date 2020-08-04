@@ -143,7 +143,6 @@
                     </h3>
                 </div>
                 <div class="time wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">
-                    <div class="time__line"></div>
                     <div class="time__text">
                         За
                         <br> минут
@@ -151,6 +150,7 @@
                     <div class="time__number">
                         30
                     </div>
+                    <div class="time__line"></div>
                 </div>
                 <div class="listOfKnowlage">
                     <div class="listOfKnowlage__item">
@@ -342,9 +342,10 @@
                     </div>
                     <div class="second-screen" style="display: none">
                         <div class="second-screen__left">
-                            <h4>
-                                Шаг 2
-                            </h4>
+                            <p class="instruction">
+                                Укажите свои настоящий email и<br>
+                                номер телефон для связи
+                            </p>
                             <form id="secondForm" action="mail.php" method="POST">
                                 <input name="name" type="text" placeholder="Иван Иванов">
                                 <input name="age" type="text" placeholder="24 года">
@@ -378,6 +379,11 @@
                                     </p>
                                 </li>
                             </ul>
+                            <p>
+                                Обратите внимание на то что после<br>
+                                регистрации внесение изменений в<br>
+                                данных невозможно
+                            </p>
                         </div>
                     </div>
                 </div>
