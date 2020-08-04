@@ -112,7 +112,7 @@
                     </h3>
                 </div>
                 <div class="text-block wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0s">
-                    <h4 class="wow fadeInRightBig" data-wow-duration="1s" data-wow-delay=".5s">Дмитрий романов</h4>
+                    <h4 class="wow fadeInRightBig" data-wow-duration="1s" data-wow-delay=".5s">Дмитрий Романов</h4>
                     <p>
                         34 года. Екатеринбург
                         <br>
@@ -154,19 +154,13 @@
                 </div>
                 <div class="listOfKnowlage">
                     <div class="listOfKnowlage__item">
-                        <div class="listOfKnowlage__number">
-                            1
-                        </div>
                         <div class="listOfKnowlage__text">
-                            Благодаря чему появилась такая возможность?
+                            1. Благодаря чему появилась <br>такая возможность?
                         </div>
                     </div>
                     <div class="listOfKnowlage__item">
-                        <div class="listOfKnowlage__number">
-                            2
-                        </div>
                         <div class="listOfKnowlage__text">
-                            Как и сколько мы на этом заработаем?
+                            2. Как и сколько мы на этом <br>заработаем?
                         </div>
                     </div>
 
@@ -305,10 +299,22 @@
                                 и отправьте заявку на обоих страницах
                             </p>
                             <form id="firstForm" action="">
-                                <input name="name" required type="text" placeholder="Иван Иванов">
-                                <input name="age" required type="text" placeholder="24 года">
-                                <input name="prof" required type="text" placeholder="Да имею">
-                                <input name="cash" required type="text" placeholder="Есть">
+                                <div class="inputStyled">
+                                    <p>ФИО: </p>
+                                    <input name="name" required type="text" placeholder="Иван Иванов">
+                                </div>
+                                <div class="inputStyled">
+                                    <p>Возраст: </p>
+                                    <input name="name" required type="text" placeholder="Иван Иванов">
+                                </div>
+                                <div class="inputStyled">
+                                    <p>Ответ: </p>
+                                    <input name="name" required type="text" placeholder="Иван Иванов">
+                                </div>
+                                <div class="inputStyled">
+                                    <p>Ответ: </p>
+                                    <input name="name" required type="text" placeholder="Иван Иванов">
+                                </div>
                                 <div class="button hided">
                                     <input type="submit" value="Далее">
                                 </div>
@@ -347,12 +353,8 @@
                                 номер телефон для связи
                             </p>
                             <form id="secondForm" action="mail.php" method="POST">
-                                <input name="name" type="text" placeholder="Иван Иванов">
-                                <input name="age" type="text" placeholder="24 года">
-                                <input name="prof" type="text" placeholder="Да имею">
-                                <input name="cash" type="text" placeholder="Есть">
-                                <input name="tell" required type="text" placeholder="+7 900 3000 0030">
                                 <input name="mail" required type="text" placeholder="ivanov@ivan.ru">
+                                <input name="tell" required type="text" placeholder="+7 900 3000 0030">
                                 <div class="check">
                                     <input type="checkbox" required id="check" name="check" class="checkbox">
                                     <label for="check">
