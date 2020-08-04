@@ -322,7 +322,7 @@ body {
 }
 
 .background-top p {
-    font-size: 222px;
+    font-size: 180px;
     font-weight: bold;
     background: linear-gradient(90deg, #1469c1 0%, #113869 100% );
     -webkit-background-clip: text;
@@ -602,6 +602,7 @@ body {
     margin-bottom: 25px;
     max-width: 595px;
     width: 100%;
+    max-width: 340px;
     padding-left: 25px;
 }
 
@@ -719,7 +720,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: .2s
+    transition: .2s;
+    height: 50px;
 }
 
 .button * {
@@ -1232,7 +1234,7 @@ body {
 
 @media screen and (min-width: 0px) and (max-width: 1800px) {
     .realize .background-top p {
-        font-size:220px
+        font-size:160px
     }
 }
 
@@ -1557,7 +1559,7 @@ body {
 }
 
 .order .background-top p {
-    font-size: 450px
+    font-size: 250px
 }
 
 @media screen and (min-width: 0px) and (max-width: 1400px) {
@@ -1695,11 +1697,7 @@ body {
     width: 100%;
     background-color: transparent;
     border: 0;
-    border-bottom: 1px solid #fff;
-    margin-bottom: 30px;
     padding-left: 30px;
-    padding-top: 4px;
-    padding-bottom: 10px;
     color: #fff;
     font-weight: 100;
     font-size: 16px;
@@ -1709,13 +1707,14 @@ body {
 }
 
 .order .container .second-screen__left #secondForm input[name='tell'] {
-    background-image: url("../img/i-tell.png")
+    background-image: url("../img/i-tell.png");
+    background-position: 0px 15px
 }
 
 .order .container .second-screen__left #secondForm input[name='mail'] {
     background-image: url("../img/i-mail.png");
     background-size: 20px;
-    background-position: 0px 5px
+    background-position: 0px 16px
 }
 
 .order .container .second-screen__left #secondForm input[name='name'],.order .container .second-screen__left #secondForm input[name='age'],.order .container .second-screen__left #secondForm input[name='lang'],.order .container .second-screen__left #secondForm input[name='prof'],.order .container .second-screen__left #secondForm input[name='cash'] {
@@ -1723,7 +1722,6 @@ body {
 }
 
 .order .container .second-screen__left #secondForm .button {
-    width: calc(100% + 30px);
     border: 0;
     height: 40px;
     padding: 0;
@@ -1847,6 +1845,7 @@ body {
 
 .order .container .order__content .first-screen__left form .button,.order .container .order__content .second-screen__left form .button {
     width: calc(100%);
+    max-width: 340px;
     border: 0;
     height: 40px;
     padding: 0;
@@ -1855,10 +1854,11 @@ body {
 
 .order .container .order__content .first-screen__left form .button *,.order .container .order__content .second-screen__left form .button * {
     width: 100%;
+    max-width: 340px;
     padding-top: 8px;
     padding-right: 40px;
     border: 0;
-    height: 40px;
+    height: 50px;
     margin-bottom: 0
 }
 
@@ -2056,7 +2056,7 @@ body {
 }
 
 .map .background-top p {
-    font-size: 454px
+    font-size: 300px
 }
 
 @media screen and (min-width: 0px) and (max-width: 1400px) {
@@ -5078,4 +5078,30 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .inputStyled {
     display: flex;
     margin-bottom: 15px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding-left: 20px;
+    height: 50px;
+    max-width: 340px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.inputStyled p {
+    color: black;
+}
+
+.inputStyled input {
+    color: black!important;
+    padding-bottom: 4px;
+}
+
+.lowerOrange {
+    display: inline!important;
+    float: right; 
+    font-size: 40px!important;
+    background: linear-gradient(90deg, #f2a734 0%, #eed138 100%)!important;
+    text-transform: uppercase!important;
+    -webkit-text-fill-color: transparent!important; 
+    -webkit-background-clip: text!important;
 }
