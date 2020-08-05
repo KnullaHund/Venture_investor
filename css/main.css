@@ -1814,7 +1814,7 @@ body {
 
 @media screen and (max-width: 780px) {
     .order .container .order__content .first-screen__left,.order .container .order__content .second-screen__left {
-        width:calc(100% - 30px)
+        width: 100%;
     }
 }
 
@@ -1841,7 +1841,8 @@ body {
 .order .container .order__content .first-screen__left form,.order .container .order__content .second-screen__left form {
     display: flex;
     flex-direction: column;
-    width: calc(91.66667% - 30px);
+    align-items: center;
+    width: 100%
 }
 
 @media screen and (max-width: 560px) {
@@ -5135,6 +5136,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 li p {
     margin-top: 0px;
+    margin-bottom: 36px;
 }
 .first-screen__right ul {
     height: 294px;
