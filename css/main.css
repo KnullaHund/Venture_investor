@@ -425,7 +425,14 @@ body {
 @media screen and (min-width: 760px) and (max-width: 1120px) {
     .first__topline {
         flex-direction:column;
-        align-items: center
+        align-items: center;
+        backdrop-filter: blur(0px);
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 760px) {
+    .first__topline {
+        backdrop-filter: blur(0px);
     }
 }
 
@@ -527,7 +534,8 @@ body {
 
 @media screen and (max-width: 780px) {
     .first__content {
-        width:calc(100% - 30px)
+        width:calc(100% - 30px);
+        backdrop-filter: blur(0px);
     }
 }
 
