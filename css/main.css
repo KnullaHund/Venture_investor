@@ -694,7 +694,7 @@ body {
 .logo__text ._default {
     font-family: "Decor Cyrillic";
     margin-top: 5px;
-    font-weight: bold
+    font-weight: normal;
 }
 
 .logo__image {
