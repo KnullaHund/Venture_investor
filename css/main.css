@@ -436,7 +436,6 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 17px;
-    backdrop-filter: blur(7px);
 }
 
 @media screen and (min-width: 760px) and (max-width: 1120px) {
