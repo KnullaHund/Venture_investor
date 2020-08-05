@@ -1031,7 +1031,7 @@ body {
 
 @media screen and (min-width: 0px) and (max-width: 560px) {
     .meeting .background-top p {
-        font-size:70px !important
+        font-size:60px !important
     }
 }
 
@@ -1414,7 +1414,7 @@ body {
 
 @media screen and (min-width: 0px) and (max-width: 780px) {
     .step .background-top p {
-        font-size:70px
+        font-size:40px
     }
 }
 
@@ -2066,7 +2066,7 @@ body {
 
 @media screen and (min-width: 0px) and (max-width: 960px) {
     .map .background-top p {
-        font-size:210px
+        font-size:140px
     }
 }
 
