@@ -1715,13 +1715,13 @@ body {
 
 .order .container .second-screen__left #secondForm input[name='tell'] {
     background-image: url("../img/i-tell.png");
-    background-position: 0px 15px
+    background-position: 0px 20px
 }
 
 .order .container .second-screen__left #secondForm input[name='mail'] {
     background-image: url("../img/i-mail.png");
     background-size: 20px;
-    background-position: 0px 16px
+    background-position: 0px 22px
 }
 
 .order .container .second-screen__left #secondForm input[name='name'],.order .container .second-screen__left #secondForm input[name='age'],.order .container .second-screen__left #secondForm input[name='lang'],.order .container .second-screen__left #secondForm input[name='prof'],.order .container .second-screen__left #secondForm input[name='cash'] {
@@ -1778,7 +1778,7 @@ body {
 }
 
 .order .container .order__content .first-screen,.order .container .order__content .second-screen {
-    height: 362px;
+    min-height: 362px;
     display: flex;
     justify-content: space-between
 }
@@ -1863,7 +1863,7 @@ body {
     width: 100%;
     max-width: 340px;
     padding-top: 8px;
-    padding-right: 40px;
+    padding-right: 10px;
     border: 0;
     height: 50px;
     margin-bottom: 0
@@ -1893,6 +1893,7 @@ body {
     list-style: none;
     padding-left: 0;
     border-bottom: 1px solid #a7c0ea;
+    margin-top: 70px;
 }
 
 .order .container .order__content .first-screen__right ul p,.order .container .order__content .second-screen__right ul p {
@@ -5084,17 +5085,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .inputStyled {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     background-color: #ffffff;
-    border-radius: 50px;
+    border-radius: 60px;
     padding-left: 20px;
-    height: 50px;
+    height: 60px;
     max-width: 340px;
     box-sizing: border-box;
     width: 100%;
 }
 
 .inputStyled p {
+    margin-top: 21px;
     color: black;
 }
 
@@ -5111,4 +5113,40 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     text-transform: uppercase!important;
     -webkit-text-fill-color: transparent!important; 
     -webkit-background-clip: text!important;
+}
+
+li p {
+    margin-top: 0px;
+}
+.first-screen__right ul {
+    height: 294px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first-screen__right ul li {
+    width: 100%;
+}
+
+.first-screen__right ul li:first-child {
+    margin-bottom: 92px;
+}
+
+@media screen and (min-width: 812px) and (max-width: 1310px) {
+    .first-screen__right ul li:first-child {
+        margin-bottom: 62px;
+    }
+}
+
+@media screen and (min-width: 781px) and (max-width: 812px) {
+    .first-screen__right ul li:first-child {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 560px) and (max-width: 781px) {
+    .first-screen__right ul li:first-child {
+        margin-bottom: 16px;
+    }
 }
