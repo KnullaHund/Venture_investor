@@ -17,6 +17,17 @@
 	font-style: normal;
 }
 
+.submitSuccess{
+    color: #4bd670 !important;
+}
+.submitFailure{
+    color: #d64542 !important;
+}
+
+/* .displayFlag{
+    display: none !important;
+} */
+
 .DimaText{
     font-family: "Decor Cyrillic" !important;
     font-size: 34px;
@@ -1794,7 +1805,7 @@ body {
 }
 
 .order .container .order__content .first-screen,.order .container .order__content .second-screen {
-    min-height: 362px;
+    min-height: 412px;
     display: flex;
     justify-content: space-between
 }

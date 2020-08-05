@@ -304,15 +304,15 @@
                                 </div>
                                 <div class="inputStyled">
                                     <p>Возраст: </p>
-                                    <input name="name" required type="text">
+                                    <input name="age" required type="text">
                                 </div>
                                 <div class="inputStyled">
                                     <p>Ответ: </p>
-                                    <input name="name" required type="text">
+                                    <input name="prof" required type="text">
                                 </div>
                                 <div class="inputStyled">
                                     <p>Ответ: </p>
-                                    <input name="name" required type="text">
+                                    <input name="cash" required type="text">
                                 </div>
                                 <div class="button hided">
                                     <input type="submit" value="Далее">
@@ -358,6 +358,10 @@
                                 <div class="inputStyled">
                                     <input name="tell" required type="text">
                                 </div>
+                                <input name="name" type="text">
+                                <input name="age" type="text">
+                                <input name="prof" type="text">
+                                <input name="cash" type="text">
                                 <div class="check">
                                     <input type="checkbox" required id="check" name="check" class="checkbox">
                                     <label for="check">
@@ -367,6 +371,8 @@
                                 <div class="button">
                                     <input id="submitButton" type="submit" value="Отправить">
                                 </div>
+                                <p class="submitSuccess" id="success" style="display: none;">Ваша заявка была отправлена успешно</p>
+                                <p class="submitFailure" id="failure" style="display: none;">Ваша заявка не была отправлена</p>
                             </form>
                         </div>
                         <div class="second-screen__right">
