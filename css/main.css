@@ -694,7 +694,6 @@ body {
 .logo__text ._default {
     font-family: "Decor Cyrillic";
     margin-top: 5px;
-    font-weight: normal;
 }
 
 .logo__image {
@@ -848,7 +847,7 @@ body {
     content: '';
     top: -2px;
     left: -15px;
-    width: 50vw;
+    width: 100vw;
     position: absolute;
     background: linear-gradient(90deg, #1c92ff 0%, #1c92ff 50%, #0c3a6c 100%);
     opacity: 0.6
@@ -1791,7 +1790,7 @@ body {
 
 @media screen and (min-width: 0px) and (max-width: 780px) {
     .order .container .order__content {
-        padding:20px 30px
+        padding:20px 45px
     }
 }
 
@@ -1871,7 +1870,6 @@ body {
 
 .order .container .order__content .first-screen__left form .button,.order .container .order__content .second-screen__left form .button {
     width: calc(100%);
-    max-width: 340px;
     border: 0;
     height: 40px;
     padding: 0;
@@ -1880,7 +1878,6 @@ body {
 
 .order .container .order__content .first-screen__left form .button *,.order .container .order__content .second-screen__left form .button * {
     width: 100%;
-    max-width: 340px;
     padding-top: 8px;
     padding-right: 10px;
     border: 0;
@@ -5109,7 +5106,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     border-radius: 60px;
     padding-left: 20px;
     height: 60px;
-    max-width: 340px;
     box-sizing: border-box;
     width: 100%;
 }
@@ -5168,5 +5164,17 @@ li p {
 @media screen and (min-width: 560px) and (max-width: 781px) {
     .first-screen__right ul li:first-child {
         margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .logo__text ._accent {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .DimaText {
+        font-size: 22px;
     }
 }
