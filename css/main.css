@@ -5154,12 +5154,13 @@ li p {
 }
 
 .first-screen__right ul li:first-child {
-    margin-bottom: 52px;
+    margin-top: 20px;
+    margin-bottom: 32px;
 }
 
 @media screen and (min-width: 812px) and (max-width: 1310px) {
     .first-screen__right ul li:first-child {
-        margin-bottom: 52px;
+        margin-bottom: 32px;
     }
 }
 
