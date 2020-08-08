@@ -5154,12 +5154,12 @@ li p {
 }
 
 .first-screen__right ul li:first-child {
-    margin-bottom: 92px;
+    margin-bottom: 52px;
 }
 
 @media screen and (min-width: 812px) and (max-width: 1310px) {
     .first-screen__right ul li:first-child {
-        margin-bottom: 62px;
+        margin-bottom: 52px;
     }
 }
 
@@ -5185,4 +5185,8 @@ li p {
     .DimaText {
         font-size: 22px;
     }
+}
+
+.request {
+    max-width: 245px;
 }
